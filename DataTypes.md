@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<h1>Типы_Данных_С#</h1>
+
 <table class="demoTable" style="height: 623px;">
 <tbody>
 <tr style="height: 17px;">
