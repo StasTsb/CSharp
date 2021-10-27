@@ -33,11 +33,22 @@ namespace Homework1
             /*
              * Задание №2
              */
-
+                       
             Console.WriteLine("HW№2");
             Console.WriteLine("Введите число");
+            int sum1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.ReadLine();
+            Console.WriteLine("Введите еще");
+            int sum2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Ну и еще");
+            int sum3 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Значение суммы введенных чисел равняется " + (sum1+sum2+sum3));
+            Console.WriteLine("Произведение: " + (sum1 * sum2 * sum3));
+
+
+
         }
     }
 }
