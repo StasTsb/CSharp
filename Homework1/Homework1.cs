@@ -13,7 +13,31 @@ namespace Homework1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            /*
+             * Задание №1
+             */
+
+            int result1;
+            int result2;
+            
+            Console.WriteLine("Введите перове число");
+            result1 = Convert.ToInt32( Console.ReadLine());
+            Console.WriteLine("Введите второе число");
+            result2 = Convert.ToInt32( Console.ReadLine());
+
+            int finalresult= ((result1 + result2)/2);
+
+            Console.WriteLine("Итого: " + finalresult);
+            Console.ReadLine();
+
+            /*
+             * Задание №2
+             */
+
+            Console.WriteLine("HW№2");
+            Console.WriteLine("Введите число");
+
+            Console.ReadLine();
         }
     }
 }
