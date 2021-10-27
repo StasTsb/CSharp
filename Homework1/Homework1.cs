@@ -19,7 +19,8 @@ namespace Homework1
 
             int result1;
             int result2;
-            
+
+            Console.WriteLine("Среднее арифметическое");
             Console.WriteLine("Введите перове число");
             result1 = Convert.ToInt32( Console.ReadLine());
             Console.WriteLine("Введите второе число");
@@ -46,6 +47,18 @@ namespace Homework1
 
             Console.WriteLine("Значение суммы введенных чисел равняется " + (sum1+sum2+sum3));
             Console.WriteLine("Произведение: " + (sum1 * sum2 * sum3));
+
+            /*
+             * Задание №3
+             */
+
+            Console.WriteLine("HW№3");
+            Console.WriteLine("Конвертируем BUN в USD");
+
+            Console.WriteLine("Введите сумму в BUN");
+            int BUN1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("USD= " + ((double)BUN1 * 2.5));
 
 
 
