@@ -17,6 +17,7 @@ namespace Homework1
              * Задание №1
              */
 
+            
             int result1;
             int result2;
 
@@ -34,7 +35,7 @@ namespace Homework1
             /*
              * Задание №2
              */
-                       
+            
             Console.WriteLine("HW№2");
             Console.WriteLine("Введите число");
             int sum1 = Convert.ToInt32(Console.ReadLine());
@@ -47,18 +48,45 @@ namespace Homework1
 
             Console.WriteLine("Значение суммы введенных чисел равняется " + (sum1+sum2+sum3));
             Console.WriteLine("Произведение: " + (sum1 * sum2 * sum3));
-
+            
             /*
              * Задание №3
              */
 
+
             Console.WriteLine("HW№3");
-            Console.WriteLine("Конвертируем BUN в USD");
 
-            Console.WriteLine("Введите сумму в BUN");
-            int BUN1 = Convert.ToInt32(Console.ReadLine());
+            double BUNtoUSD = 2.6;
+            double BUNtoJPY = 0.022;
 
-            Console.WriteLine("USD= " + ((double)BUN1 * 2.5));
+            string USDchoose = "USD";
+            string JPYchoose = "JPY";
+
+            Console.WriteLine("Хотите конвертировать BUN в USD или JPY ? (впешите USD или JPY)");
+            string choose = Console.ReadLine();
+
+            if (choose == USDchoose | choose == JPYchoose)
+            {              
+                if (choose == USDchoose)
+                {
+                    Console.WriteLine("Введите сумму в BUN");
+                    double USDresult = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("USD= " + ((double)USDresult * BUNtoUSD));
+                }
+                if (choose == JPYchoose)
+                {
+                    Console.WriteLine("Введите сумму в BUN");
+                    double JPYresult = double.Parse(Console.ReadLine());
+
+                    Console.WriteLine("JPY= " + ((double)JPYresult * BUNtoJPY));
+                }
+            }
+            else
+            {
+                Console.WriteLine("Ошибка при вводе валюты, введите USD или JPY");
+            }
+           
 
 
 
