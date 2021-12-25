@@ -14,15 +14,16 @@ namespace Homework2
 
             int numbers = int.Parse(Console.ReadLine());
 
-            int result = (numbers/ 2);
-
-            if ()
+            int result = numbers / 2;
+            
+            if (result * 2 == numbers)
             {
-
+                Console.WriteLine("Четное");
             }
+
             else
             {
-
+                Console.WriteLine("Число не четное");
             }
         }
     }
