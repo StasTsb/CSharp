@@ -62,12 +62,8 @@
 <td style="width: 258.112px; height: 35px;">MIN = 0</td>
 <td style="width: 258.112px; height: 35px;">MAX = 1844674407 3709551615</td>
 </tr>
-<tr style="height: 35px;">
-<td style="width: 59.0375px; height: 35px;"></td>
-<td style="width: 56.1375px; height: 35px;"></td>
-<td style="width: 29.0375px; height: 35px;"></td>
-<td style="width: 258.112px; height: 35px;">Числовые (с плавающей точкой) типы:</td>
-<td style="width: 258.112px; height: 35px;"></td>
+<tr style="height: 17px;">
+<td style="width: 672.438px; height: 17px;" colspan="5">Числовые (с плавающей точкой) типы:</td>
 </tr>
 <tr style="height: 35px;">
 <td style="width: 59.0375px; height: 35px;">float</td>
