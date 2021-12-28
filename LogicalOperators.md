@@ -18,11 +18,11 @@
 </tr>
 <tr style="height: 17px;">
 <td style="height: 17px; width: 29.0375px;">Сокращенное ИЛИ (не обрабатывает 2ую ч. условия)</td>
-<td style="width: 258.112px; height: 17px;">|| = 0</td>
+<td style="width: 258.112px; height: 17px;">||</td>
 </tr>
 <tr style="height: 17px;">
-<td style="height: 17px; width: 29.0375px;">Сокращенное И (не обрабатывает 2ую ч. условия)= 1</td>
-<td style="width: 258.112px; height: 17px;">&& = 0</td>
+<td style="height: 17px; width: 29.0375px;">Сокращенное И (не обрабатывает 2ую ч. условия)</td>
+<td style="width: 258.112px; height: 17px;">&&</td>
 </tr>
 </tbody>
 </table>
