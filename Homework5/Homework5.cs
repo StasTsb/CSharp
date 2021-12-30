@@ -6,20 +6,22 @@ namespace Homework5
     {
         static void Main(string[] args)
         {
+            /*Нарисуйте треугольник
+             * в консоли
+             */
 
+            Console.WriteLine("Введите высоту треугольника");
 
-            for (int i = 1; i <= 10; i++)
+            int enterparam = int.Parse(Console.ReadLine());
+
+            for (int firstvalue = 1; firstvalue <= enterparam; firstvalue++)
             {
-                for (int a = 1; a <=10; a++)
+                for (int secondvalue = 1; secondvalue <=firstvalue; secondvalue++)
                 {
-                    Console.Write("#");
-
-                 
+                    Console.Write("#");                                     
                 }
-
                 Console.WriteLine();
-            }
-            
+            }            
         }
     }
 }
