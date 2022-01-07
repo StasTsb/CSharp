@@ -8,39 +8,42 @@ namespace Homework6
 
         {
             /*
-             * тернарный оператор
-             */
-            bool accesAllowed;
-            string inputdata = Console.ReadLine();
-            string enterPassowrd = "qwer";
+               //обьявляем массив (переменную)
+               int[] myArray;
+               //int[] myArray = new int[5]
 
-            accesAllowed = enterPassowrd == inputdata ? true : false;
+               //выделяем место, границу массива в 5 (начинается с 0)
+               myArray = new int[5];
 
-            Console.WriteLine(accesAllowed);
+               //по индексу 1 присваеваем число 3 
+               myArray[1] = 3;
 
-            /*
-             * тернарный оператор
-             */
+               //выводим массив под индексом 1
+               Console.WriteLine(myArray[1]);
 
-            //обьявляем массив (переменную)
-            int[] myArray;
-            //int[] myArray = new int[5]
+               //Инициализация массива
+               int[] myArray1 = new int[5] { 5, 6, 7, 8, 9 };
+               //Можно не создавать элементы, тогда можно задавать их количество совбодно
+               int[] myArray2 = new int[] { 5, 6, 7, 8 };
+               //Можно не указывать синтаксис
+               int[] myArray3 = new [] { 5, 6, 7, 8 };
 
-            //выделяем место, границу массива в 5 (начинается с 0)
-            myArray = new int[5];
+               int[] myArray4 = { 10, 3, 2, 55 };
 
-            //по индексу 1 присваеваем число 3 
-            myArray[1] = 3;
+               for (int i = 0; i < myArray.Length; i++)
+               {
+                   Console.WriteLine(myArray[i]);
+               }
+               Console.ReadLine();
+               /*
+                * ДЗ
+                * 1.Заполнить массив с клавиатуры
+                * 2.Вывести массив в обратном порядке
+                * 3.Найти сумму четных чисел 
+                * 4.Найти наименьшее числов массиве
+                */
 
-            //выводим массив под индексом 1
-            Console.WriteLine(myArray[1]);
-
-            //Инициализация массива
-            int[] myArray1 = new int[5] { 5, 6, 7, 8, 9 };
-            //Можно не создавать элементы, тогда можно задавать их количество совбодно
-            int[] myArray2 = new int[] { 5, 6, 7, 8 };
-            //Можно не указывать синтаксис
-            int[] myArray3 = new [] { 5, 6, 7, 8 };
+            int[] myArray0 = { };
 
 
         }
