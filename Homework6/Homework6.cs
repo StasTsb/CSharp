@@ -35,6 +35,8 @@ namespace Homework6
                    Console.WriteLine(myArray[i]);
                }
                Console.ReadLine();
+
+
                /*
                 * ДЗ
                 * 1.Заполнить массив с клавиатуры
@@ -43,7 +45,26 @@ namespace Homework6
                 * 4.Найти наименьшее числов массиве
                 */
 
-            int[] myArray0 = { };
+            
+            Console.Write("Введите количество элементов массива: ");
+
+            int elemets = int.Parse(Console.ReadLine());
+            int[] myArray0 = new int[elemets];
+                        
+            for (int i = 0; i < myArray0.Length; i++)
+            {
+                Console.WriteLine("Введите значение элемента с индексом: ");
+                myArray0[i] = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("Вывод массива:");
+
+            for (int i = 0; i < myArray0.Length; i++)
+            {
+                Console.WriteLine(myArray0[i]);
+            }
+            Console.ReadLine();
+
 
 
         }
