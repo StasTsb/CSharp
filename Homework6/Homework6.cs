@@ -16,7 +16,8 @@ namespace Homework6
              * 4.Найти наименьшее числов массиве
              */
 
-            /*
+            Console.WriteLine("Дз1");
+
             Console.Write("Введите количество элементов массива: ");
 
             int elemets = int.Parse(Console.ReadLine());
@@ -24,7 +25,7 @@ namespace Homework6
                         
             for (int i = 0; i < myArray0.Length; i++)
             {
-                Console.Write("Введите значение элемента : ");
+                Console.Write($"\nВведите значение элемента массива под индексом {i}: \t");
                 myArray0[i] = int.Parse(Console.ReadLine());
             }
 
@@ -35,9 +36,10 @@ namespace Homework6
                 Console.WriteLine(myArray0[i]);
             }
             Console.ReadLine();
-            */
+            
 
             Console.WriteLine("Дз2");
+
             Console.Write("Введите количество элементов массива: \t");
 
             int elements2 = int.Parse(Console.ReadLine());            
@@ -54,6 +56,34 @@ namespace Homework6
             {
                 Console.WriteLine(myArray100[i]);
             }
+
+            Console.WriteLine("ДЗ 3");
+
+            Console.Write("Введите количество элементов массива: \t");
+
+            int elements3 = int.Parse(Console.ReadLine());
+            int[] myArray101 = new int[elements3];
+            int result =0;
+            
+            
+            for (int i = 0; i < myArray101.Length; i++)
+            {
+                Console.Write($"\nВведите значение элемента массива под индексом {i}: \t");
+                myArray101[i] = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("Вывод:");
+
+            for (int i = 0; i < myArray101.Length; i++)
+            {
+                if (myArray101[i] % 2 == 0)
+                {
+                    result += myArray101[i];
+                }                
+            }
+            Console.WriteLine(result);
+            Console.ReadLine();
+
         }
 }
 }
