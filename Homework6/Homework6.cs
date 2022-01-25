@@ -16,7 +16,7 @@ namespace Homework6
              * 4.Найти наименьшее числов массиве
              */
 
-            Console.WriteLine("Дз1");
+            Console.WriteLine("Дз1- Заполнить массив с клавиатуры");
 
             Console.Write("Введите количество элементов массива: ");
 
@@ -38,7 +38,7 @@ namespace Homework6
             Console.ReadLine();
             
 
-            Console.WriteLine("Дз2");
+            Console.WriteLine("Дз2- Вывести массив в обратном порядке");
 
             Console.Write("Введите количество элементов массива: \t");
 
@@ -57,7 +57,7 @@ namespace Homework6
                 Console.WriteLine(myArray100[i]);
             }
 
-            Console.WriteLine("ДЗ 3");
+            Console.WriteLine("ДЗ3- Найти сумму четных чисел");
 
             Console.Write("Введите количество элементов массива: \t");
 
@@ -83,7 +83,21 @@ namespace Homework6
             }
             Console.WriteLine(result);
             Console.ReadLine();
+            
+            Console.WriteLine("ДЗ4- Найти наименьшее число в массиве");
 
+            int[] myArray4 = { 2, 3, 4, 5, 1, 40 };
+            int result4 = myArray4[0];
+
+            for (int i = 1; i < myArray4.Length; i++)
+            {
+                if(myArray4[i] < result4)
+                {
+                    result4 = myArray4[i];
+                }
+
+            }
+            Console.WriteLine(result4);
         }
 }
 }
